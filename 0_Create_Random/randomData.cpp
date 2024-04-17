@@ -10,7 +10,7 @@ int main()
     out.open("Data.txt");
     if (out.is_open())
     {
-        for (int i=0;i<500000;i++)
+        for (int i=0;i<100000;i++)
         out << rand() << std::endl;
     }
     out.close();
